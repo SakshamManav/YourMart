@@ -1,0 +1,36 @@
+/* Cartitems.css */
+
+.cart-items {
+    background-color: #f8f9fa;
+  }
+  
+  .summary {
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h4, p {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-danger {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .summary {
+      margin-top: 20px;
+    }
+  
+    .img-fluid {
+      max-width: 100%;
+    }
+  
+    .form-select {
+      width: 100%;
+    }
+  }
+  
